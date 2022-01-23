@@ -1,13 +1,26 @@
-# afficher-fonction
-Application java permettant d'afficher des fonctions sur le plan complexe.
+# Function Displayer
 
-Copyright (c) 2019, Dubois Siegfried, ODOSOS
-Cédé à titre de licence libre autorisant l'usage de l'œuvre, dans un but pédagogique,
-permettant l'étude de l'œuvre pour en comprendre le fonctionnement ou l'adapter à ses besoins,
-la modification (amélioration, extension et transformation) ou incorporation de l'œuvre en une œuvre dérivée,
-ainsi que la redistribution de l'œuvre, c'est-à-dire sa diffusion à d'autres usagers, à l'exception d'un usage commercial.
+![function displayer](https://media.discordapp.net/attachments/885891253739331674/934769768840437820/unknown.png?width=942&height=676)
 
-Le but de cette application est d'afficher le résultat, par une fonction, de points dans le plan complexe.
-Toutes les focntions de base sont implémentées, le fichier maths.java contient les fonctions utilisées
-ainsi que la procédure à suivre pour créer ses propres fonctions mathématiques ; il est possible d'afficher les fonctions
-ainsi crées dans la liste déroulante en modifiant le tableau String[] contenant les noms des fonctions.
+Java application for displaying functions on the complex plane.
+
+> Copyright (c) 2019, Dubois Siegfried, ODOSOS
+> Granted as a free license authorizing the use of the work, for educational purposes,
+> allowing the study of the work to understand its operation or adapt it to its needs,
+> the modification (improvement, extension and transformation) or incorporation of the work into a derivative work,
+> as well as the redistribution of the work, that is to say its dissemination to other users, with the exception of commercial use.
+
+### Aim
+
+The purpose of this application is to display the result, by a function, of points in the complex plane.
+All basic functions are implemented, the maths.java file contains the functions used
+as well as the procedure to follow to create your own mathematical functions; it is possible to display the functions
+thus created in the drop-down list by modifying the array String[] containing the names of the functions.
+
+### To-do list
+
+- [ ] New graphical interface
+- [ ] Code optimization
+- [ ] Display and parameters on same window
+- [ ] Better cursor tracking
+- [x] Documentation for new functions
