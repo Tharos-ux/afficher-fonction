@@ -4,12 +4,6 @@
 
 Java application for displaying functions on the complex plane.
 
-> Copyright (c) 2019-2022, Dubois Siegfried, ODOSOS
-> Granted as a free license authorizing the use of the work, for educational purposes,
-> allowing the study of the work to understand its operation or adapt it to its needs,
-> the modification (improvement, extension and transformation) or incorporation of the work into a derivative work,
-> as well as the redistribution of the work, that is to say its dissemination to other users, with the exception of commercial use.
-
 ### Aim
 
 The purpose of this application is to display the result, by a function, of points in the complex plane.
