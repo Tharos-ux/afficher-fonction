@@ -30,19 +30,19 @@ public class principale {
 	public static void main(String[] args) {
 		// fenetre params
 		params parametre = new params();
-		while(true) {
+		while (true) {
 			try {
 				// on actualise les variables
 				wttime = Integer.parseInt(parametre.refresh.getText());
 				Thread.sleep(wttime); // on actualise toutes les n ms
 			} catch (InterruptedException erreur) {
-					System.out.println("Arret d'exécution");	
+				System.out.println("Arret d'exécution");
 			}
-		if(parametre.estPause==false) {
-			 pasGrille = Integer.parseInt(parametre.tailleGrille.getText());
-			 dimX = Integer.parseInt(parametre.tailleEnX.getText());
-			 dimY = Integer.parseInt(parametre.tailleEnY.getText());
-			interf.refresh(moniteur);
+			if (parametre.estPause == false) {
+				pasGrille = Integer.parseInt(parametre.tailleGrille.getText());
+				dimX = Integer.parseInt(parametre.tailleEnX.getText());
+				dimY = Integer.parseInt(parametre.tailleEnY.getText());
+				interf.refresh(moniteur);
 			}
 		}
 	}
